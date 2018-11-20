@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#"
+     xml:base="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Abandonment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Abandonment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Accomplished -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Accomplished">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Actio_Libera_in_Causa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Actio_Libera_in_Causa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Affirmative_Act -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Affirmative_Act">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Act"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Anticipated_Possibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Anticipated_Possibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Attempted -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Attempted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Causation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Causation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
+        <rdfs:comment>A Legal Ontology for Criminal Code of the Republic of China</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Emergency_Avoidance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Emergency_Avoidance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Feebleminded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Feebleminded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Ground_of_Legal_Justification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Ground_of_Legal_Justification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Guilty_Mind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Guilty_Mind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Insane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Insane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Intent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Intent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Negligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Negligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Omission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Omission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Act"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Preparation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Preparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Responsibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Responsibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Result_of_Hazard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Result_of_Hazard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Self-Defense_Justification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Self-Defense_Justification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subject_of_Crime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subject_of_Crime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Victim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Victim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Legal_Elements_of_Offense"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Additional_Articles_of_the_Constitution_of_the_Republic_of_China -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Additional_Articles_of_the_Constitution_of_the_Republic_of_China">
+        <owl:backwardCompatibleWith rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution">
+        <rdfs:comment>Constitution of the Republic of China (Taiwan)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
