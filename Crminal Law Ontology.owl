@@ -6,7 +6,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Criminal Code of the Republic of China</rdfs:comment>
+    </owl:Ontology>
     
 
 
@@ -389,6 +391,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud">
@@ -397,6 +407,20 @@
         <Fulfillment_of_the_Legal_Elements_of_Offense>consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</Fulfillment_of_the_Legal_Elements_of_Offense>
         <Illegality>consists of ground of legal justification, self-defense, and necessity (emergency avoidance)</Illegality>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_Of_Criminal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_Of_Criminal"/>
     
 
 
