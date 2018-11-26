@@ -1,349 +1,342 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13"
+     xml:base="http://www.jslin.com/ontologies/2018/11/Legal-ontology"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13">
+     ontologyIRI="http://www.jslin.com/ontologies/2018/11/Legal-ontology">
+    <Prefix name="" IRI="http://www.jslin.com/ontologies/2018/11/Legal-ontology#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Abandonment"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Abandonment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Accomplished"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Accomplished"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Actio_Libera_in_Causa"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Actio_Libera_in_Causa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anticipated_Possibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Anticipated_Possibility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Attempted"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Attempted"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Behavior"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Causation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Causation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Civil_Code"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Civil_Code"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Constitution"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Constitution"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Criminal_Law"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Criminal_Law"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Emergency_Avoidance"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Emergency_Avoidance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Feebleminded"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Feebleminded"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ground_of_Legal_Justification"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Ground_of_Legal_Justification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Guilty_Mind"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Guilty_Mind"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Illegality"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Illegality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Insane"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Insane"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Intent"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Intent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Law"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Law"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Negligence"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Negligence"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Preparation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Preparation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Responsibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Responsibility"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Result_of_Hazard"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Result_of_Hazard"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Self-Defense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Self-Defense"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Subject_of_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subject_of_Crime"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subjective_Legal_Element_of_the_Offense"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Third-Order_Theory_Of_Criminal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Victim"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Offense_of_Larceny"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offense_of_Larceny"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Culpability"/>
-            <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
-            <Class IRI="#Illegality"/>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Abandonment"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Abandonment"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Accomplished"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Accomplished"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Actio_Libera_in_Causa"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Actio_Libera_in_Causa"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Anticipated_Possibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Anticipated_Possibility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Attempted"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Attempted"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Behavior"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Causation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Causation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Criminal_Law"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Criminal_Law"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Emergency_Avoidance"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Emergency_Avoidance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Feebleminded"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Feebleminded"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Ground_of_Legal_Justification"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Ground_of_Legal_Justification"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Guilty_Mind"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Guilty_Mind"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Insane"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Insane"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Intent"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Intent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Negligence"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Negligence"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Preparation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Preparation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Responsibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Responsibility"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Result_of_Hazard"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Result_of_Hazard"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Self-Defense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Self-Defense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Subject_of_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subject_of_Crime"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#A_Crime"/>
-        <Class IRI="#Victim"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Abandonment"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Abandonment"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Accomplished"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Accomplished"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Actio_Libera_in_Causa"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Actio_Libera_in_Causa"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anticipated_Possibility"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Anticipated_Possibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Attempted"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Attempted"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Behavior"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Behavior"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Causation"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Causation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Civil_Code"/>
-        <Class IRI="#Constitution"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Civil_Code"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Constitution"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Constitution"/>
-        <Class IRI="#Law"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Constitution"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Law"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Criminal_Law"/>
-        <Class IRI="#Constitution"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Criminal_Law"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Constitution"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Culpability"/>
-        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Emergency_Avoidance"/>
-        <Class IRI="#Illegality"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Emergency_Avoidance"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Illegality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Feebleminded"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Feebleminded"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
-        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ground_of_Legal_Justification"/>
-        <Class IRI="#Illegality"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Ground_of_Legal_Justification"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Illegality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Guilty_Mind"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Guilty_Mind"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Illegality"/>
-        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Illegality"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Insane"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Insane"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Intent"/>
-        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Intent"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subjective_Legal_Element_of_the_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Negligence"/>
-        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Negligence"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subjective_Legal_Element_of_the_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Preparation"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Preparation"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Responsibility"/>
-        <Class IRI="#Culpability"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Responsibility"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Result_of_Hazard"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Result_of_Hazard"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Self-Defense"/>
-        <Class IRI="#Illegality"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Self-Defense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Illegality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Subject_of_Crime"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subject_of_Crime"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Victim"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#A_Crime"/>
-        <NamedIndividual IRI="#Offense_of_Larceny"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offense_of_Larceny"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#A_Crime"/>
-        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
     </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#A_Crime</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Offense</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Constitution</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Constitution</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Constitution of the Republic of China (Taiwan)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Criminal_Law</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Criminal_Law</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Criminal Code of the Republic of China</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Law</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Law</IRI>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Code, Act.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Offense_of_Larceny</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offense_of_Larceny</IRI>
         <Literal>Article 320
 A person who for purpose to exercise unlawful control over other&apos;s property for himself or for a third person unlawfully takes movable property of another commits larceny and shall be sentenced to imprisonment for not more than five years, short-term imprisonment, or a fine of not more than five hundred yuan. A person who for purpose to gain unlawful benefit of himself or of a third person unlawfully occupies the real property of another shall be punished in accordance with provisions of the preceding paragraph. An attempt to commit an offense specified in one of the two preceding paragraphs is punishable.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Offenses_of_Fraudulence</IRI>
+        <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence</IRI>
         <Literal>Article 339
 A person who by fraud causes another to deliver to him property belonging to such other or to a third person for purpose to exercise unlawful control over other’s property for himself or for a fourth person shall be sentenced to imprisonment for not more than five years or short-term imprisonment; in lieu thereof, or in addition thereto, a fine of not more than five hundred thousand yuan may be imposed. A person who by the means specified in the preceding paragraph takes an illegal benefit for himself or for a third person shall be subject to the same punishment. An attempt to commit an offense specified in one of the two preceding paragraphs is punishable.</Literal>
     </AnnotationAssertion>
