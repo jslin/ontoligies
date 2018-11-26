@@ -1,474 +1,353 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#"
-     xml:base="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Criminal Code of the Republic of China</rdfs:comment>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Abandonment -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Abandonment">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Accomplished -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Accomplished">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Actio_Libera_in_Causa -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Actio_Libera_in_Causa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Affirmative_Act -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Affirmative_Act">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Behavior"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Anticipated_Possibility -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Anticipated_Possibility">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Attempted -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Attempted">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Behavior -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Behavior">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Causation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Causation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Criminal_Law">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
-        <rdfs:comment>A Legal Ontology for Criminal Code of the Republic of China</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Emergency_Avoidance -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Emergency_Avoidance">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Feebleminded -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Feebleminded">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Ground_of_Legal_Justification -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Ground_of_Legal_Justification">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Guilty_Mind -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Guilty_Mind">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Insane -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Insane">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Intent -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Intent">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Negligence -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Negligence">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Omission -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Omission">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Behavior"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Preparation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Preparation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Responsibility -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Responsibility">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Culpability"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Result_of_Hazard -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Result_of_Hazard">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Self-Defense_Justification -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Self-Defense_Justification">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Illegality"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subject_of_Crime -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subject_of_Crime">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Subjective_Legal_Element_of_the_Offense">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Victim -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Victim">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Civil_Law -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Civil_Law">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Third-Order_Theory_of_Criminal"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Criminal_Law">
-        <rdf:type rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Law"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud">
-        <rdf:type rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
-        <Culpability>consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</Culpability>
-        <Fulfillment_of_the_Legal_Elements_of_Offense>consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</Fulfillment_of_the_Legal_Elements_of_Offense>
-        <Illegality>consists of ground of legal justification, self-defense, and necessity (emergency avoidance)</Illegality>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability"/>
-        <owl:annotatedTarget>consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</owl:annotatedTarget>
-        <rdfs:comment>consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-        <owl:annotatedTarget>consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</owl:annotatedTarget>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Fraud"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality"/>
-        <owl:annotatedTarget>consists of ground of legal justification, self-defense, and necessity (emergency avoidance)</owl:annotatedTarget>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of ground of legal justification, self-defense, and necessity (emergency avoidance).</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny">
-        <rdf:type rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-7#A_Crime"/>
-        <Culpability rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</Culpability>
-        <Fulfillment_of_the_Legal_Elements_of_Offense rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</Fulfillment_of_the_Legal_Elements_of_Offense>
-        <Illegality rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of ground of legal justification, self-defense, and necessity (emergency avoidance).</Illegality>
-    </owl:NamedIndividual>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Culpability"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</owl:annotatedTarget>
-        <rdfs:comment>consists of insane, feebleminded, Actio Libera in Causa, responsibility, and guilty mind.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Fulfillment_of_the_Legal_Elements_of_Offense"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</owl:annotatedTarget>
-        <rdfs:comment>consists of subject of crime, victim (object), act, subjective legal element of the offense (including intent or negligence), causation, result of hazard, attempted, accomplished, abandonment (discontinuance), and preparation.</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Offense_of_Larceny"/>
-        <owl:annotatedProperty rdf:resource="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Illegality"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">consists of ground of legal justification, self-defense, and necessity (emergency avoidance).</owl:annotatedTarget>
-        <rdfs:comment>consists of ground of legal justification, self-defense, and necessity (emergency avoidance).</rdfs:comment>
-    </owl:Axiom>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.semanticweb.org/jslin/ontologies/2018/11/Criminal-Law-ontology#Constitution">
-        <rdfs:comment>Constitution of the Republic of China (Taiwan)</rdfs:comment>
-    </rdf:Description>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#A_Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abandonment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accomplished"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anticipated_Possibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attempted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Causation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constitution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal_Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culpability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Avoidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feebleminded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guilty_Mind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Illegality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Law"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Preparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Responsibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Result_of_Hazard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-Defense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject_of_Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Culpability"/>
+            <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+            <Class IRI="#Illegality"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Abandonment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Accomplished"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Anticipated_Possibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Attempted"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Causation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Criminal_Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Emergency_Avoidance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Feebleminded"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Guilty_Mind"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Insane"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Intent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Negligence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Preparation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Responsibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Result_of_Hazard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Self-Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Subject_of_Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Victim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abandonment"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accomplished"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anticipated_Possibility"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attempted"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Causation"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_Code"/>
+        <Class IRI="#Constitution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constitution"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal_Law"/>
+        <Class IRI="#Constitution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culpability"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Avoidance"/>
+        <Class IRI="#Illegality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feebleminded"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+        <Class IRI="#Illegality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guilty_Mind"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Illegality"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insane"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intent"/>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negligence"/>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparation"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Responsibility"/>
+        <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result_of_Hazard"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-Defense"/>
+        <Class IRI="#Illegality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subject_of_Crime"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#A_Crime"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#A_Crime"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#A_Crime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Offense</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Constitution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Constitution of the Republic of China (Taiwan)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Criminal_Law</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Criminal Code of the Republic of China</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Law</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Code, Act.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Offense_of_Larceny</IRI>
+        <Literal>Article 320
+A person who for purpose to exercise unlawful control over other&apos;s property for himself or for a third person unlawfully takes movable property of another commits larceny and shall be sentenced to imprisonment for not more than five years, short-term imprisonment, or a fine of not more than five hundred yuan. A person who for purpose to gain unlawful benefit of himself or of a third person unlawfully occupies the real property of another shall be punished in accordance with provisions of the preceding paragraph. An attempt to commit an offense specified in one of the two preceding paragraphs is punishable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Offenses_of_Fraudulence</IRI>
+        <Literal>Article 339
+A person who by fraud causes another to deliver to him property belonging to such other or to a third person for purpose to exercise unlawful control over other’s property for himself or for a fourth person shall be sentenced to imprisonment for not more than five years or short-term imprisonment; in lieu thereof, or in addition thereto, a fine of not more than five hundred thousand yuan may be imposed. A person who by the means specified in the preceding paragraph takes an illegal benefit for himself or for a third person shall be subject to the same punishment. An attempt to commit an offense specified in one of the two preceding paragraphs is punishable.</Literal>
+    </AnnotationAssertion>
+</Ontology>
 
 
 
