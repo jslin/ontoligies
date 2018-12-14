@@ -103,6 +103,27 @@
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Accomplished"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Attempted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Causation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Result_of_Hazard"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Subject_of_Crime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offense_of_Larceny"/>
     </Declaration>
     <Declaration>
@@ -308,6 +329,36 @@
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
     </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Accomplished"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Behavior"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Causation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Result_of_Hazard"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Subject_of_Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Victim"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+    </DataPropertyAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime</IRI>
