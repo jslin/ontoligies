@@ -121,6 +121,9 @@
         <DataProperty IRI="#Subject_of_Crime"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Victim"/>
     </Declaration>
     <Declaration>
@@ -330,34 +333,34 @@
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
     </ClassAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Accomplished"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#Behavior"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fraud</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Causation"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">causes another to deliver to him property belonging to such other or to a third person</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Result_of_Hazard"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">whose property belonging to such other or to a third person</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Subject_of_Crime"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A person who by fraud</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for purpose to exercise unlawful control over other’s property for himself</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Victim"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
-        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the one  whom to deliver to him property belonging to</Literal>
     </DataPropertyAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
