@@ -324,6 +324,10 @@
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Filfullment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Intent"/>
+        <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Negligence"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offense_of_Larceny"/>
