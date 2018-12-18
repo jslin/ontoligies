@@ -103,6 +103,12 @@
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Victim"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#Affirmative_Act"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Omission"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Accomplished"/>
     </Declaration>
     <Declaration>
@@ -336,6 +342,11 @@
         <Class IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Affirmative_Act"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Behavior"/>
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
@@ -366,6 +377,16 @@
         <NamedIndividual IRI="http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#Offenses_of_Fraudulence"/>
         <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the one  whom to deliver to him property belonging to</Literal>
     </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Affirmative_Act"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Omission"/>
+    </FunctionalObjectProperty>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#Affirmative_Act"/>
+        <ObjectProperty IRI="#Omission"/>
+    </DisjointObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/jslin/ontologies/2018/10/untitled-ontology-13#A_Crime</IRI>
