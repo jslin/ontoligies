@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.jslin.com/ontologies/2018/11/Legal-ontology">
-    <Prefix name="" IRI="http://www.jslin.com/ontologies/2018/11/Legal-ontology"/>
+    <Prefix name="" IRI="http://www.jslin.com/ontologies/2018/11/Legal-ontology#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -55,7 +55,7 @@
         <Class IRI="#Feebleminded"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ground_of_Legal_Justification"/>
@@ -138,6 +138,9 @@
     <Declaration>
         <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
         <Class IRI="#Abandonment"/>
@@ -168,7 +171,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
+        <Class IRI="#Constitution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
         <Class IRI="#Criminal_Law"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
@@ -180,6 +191,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
         <Class IRI="#Ground_of_Legal_Justification"/>
     </SubClassOf>
     <SubClassOf>
@@ -188,11 +203,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
+        <Class IRI="#Illegality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
         <Class IRI="#Insane"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
         <Class IRI="#Intent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
+        <Class IRI="#Law"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
@@ -220,39 +243,75 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Crime"/>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A_Crime"/>
         <Class IRI="#Victim"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Abandonment"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abandonment"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Accomplished"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accomplished"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Actio_Libera_in_Causa"/>
         <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Anticipated_Possibility"/>
         <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anticipated_Possibility"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Attempted"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attempted"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Behavior"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Causation"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Causation"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Civil_Code"/>
         <Class IRI="#Constitution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_Code"/>
+        <Class IRI="#Law"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Constitution"/>
@@ -263,6 +322,10 @@
         <Class IRI="#Constitution"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Criminal_Law"/>
+        <Class IRI="#Law"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Culpability"/>
         <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
@@ -271,11 +334,19 @@
         <Class IRI="#Illegality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Emergency_Avoidance"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Feebleminded"/>
         <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Feebleminded"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
         <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
@@ -283,8 +354,16 @@
         <Class IRI="#Illegality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Guilty_Mind"/>
         <Class IRI="#Culpability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guilty_Mind"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Illegality"/>
@@ -295,40 +374,88 @@
         <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Insane"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intent"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Intent"/>
         <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intent"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negligence"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Negligence"/>
         <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Negligence"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Preparation"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Preparation"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Responsibility"/>
         <Class IRI="#Culpability"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Responsibility"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Result_of_Hazard"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result_of_Hazard"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Self-Defense"/>
         <Class IRI="#Illegality"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Self-Defense"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Subject_of_Crime"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subject_of_Crime"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Victim"/>
-        <Class IRI="#Filfullment_of_the_Legal_Elements_of_Offense"/>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Accomplished"/>
@@ -343,7 +470,231 @@
         <NamedIndividual IRI="#Offense_of_Larceny"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Abandonment"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accomplished"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anticipated_Possibility"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attempted"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Behavior"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Causation"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Constitution"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Criminal_Law"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culpability"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emergency_Avoidance"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feebleminded"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guilty_Mind"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Illegality"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insane"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intent"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Law"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negligence"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preparation"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Responsibility"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Result_of_Hazard"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Self-Defense"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subject_of_Crime"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#Offense_of_Larceny"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#A_Crime"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Abandonment"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accomplished"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actio_Libera_in_Causa"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anticipated_Possibility"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attempted"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Behavior"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Causation"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Constitution"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Criminal_Law"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Culpability"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emergency_Avoidance"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feebleminded"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ground_of_Legal_Justification"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guilty_Mind"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Illegality"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insane"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intent"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Law"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negligence"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Preparation"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Responsibility"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Result_of_Hazard"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Self-Defense"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subject_of_Crime"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Third-Order_Theory_Of_Criminal"/>
+        <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
         <NamedIndividual IRI="#Offenses_of_Fraudulence"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
@@ -391,6 +742,74 @@
         <ObjectProperty IRI="#Affirmative_Act"/>
         <ObjectProperty IRI="#Omission"/>
     </DisjointObjectProperties>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A crime definition by the Third-Order Theory of Criminal.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Def-A_Crime</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Culpability"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Illegality"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#A_Crime"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>The definition of intent of subjective legal element of the offense.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Def-isSLE</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Subject_of_Crime"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Subjective_Legal_Element_of_the_Offense"/>
+                <Variable IRI="#intent"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Intent"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Fulfillment_of_the_Legal_Elements_of_Offense"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#A_Crime</IRI>
@@ -427,5 +846,5 @@ A person who by fraud causes another to deliver to him property belonging to suc
 
 
 
-<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
